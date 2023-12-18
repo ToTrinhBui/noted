@@ -1,0 +1,80 @@
+/* Charts */
+.charts {
+    height: calc(100vh - 48px);
+    display: flex;
+    flex-direction: column;
+}
+
+/* BoardChart */
+.board-chart {
+    margin: 15px 45px;
+    flex: 1;
+    overflow: auto;
+}
+
+.board-chart-inner {
+    padding: 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.board-chart-inner .more-option {
+    color: #626F86;
+    font-size: 14px;
+    position: absolute;
+    z-index: 1000;
+}
+
+.board-chart-inner .more-option .more-icon {
+    height: 28px;
+    width: 28px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px;
+}
+
+.board-chart-inner .more-option .more-icon:hover {
+    background-color: #f1f2f434;
+}
+
+.board-chart-inner .more-option .more-item {
+    position: absolute;
+    z-index: 20;
+    background: #FFFFFF;
+    border-radius: 8px;
+    width: 80px;
+    padding: 5px 0px;
+    transform: translate(-42px, 5px);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.board-chart-inner .more-option .option-part {
+    padding: 5px 10px;
+}
+
+.board-chart-inner .more-option .option-part:hover {
+    background-color: #f1f2f4;
+}
+
+/* for each chart */
+.chart-outer {
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    background: var(--chart-background);
+}
+
+@media only screen and (max-width: 900px) {
+
+    /* BoardChart */
+    .board-chart {
+        margin: 15px 0px;
+    }
+}

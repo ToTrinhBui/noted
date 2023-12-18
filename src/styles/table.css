@@ -1,0 +1,108 @@
+/* Table */
+.table {
+    height: calc(100vh - 48px);
+    display: flex;
+    flex-direction: column;
+    background-size: 40px 40px;
+    background-image: radial-gradient(circle, #DEE4EA 2.5px, rgb(141 141 141 / 15%) 2px);
+}
+
+/* BoardTable */
+.board-table {
+    margin: 15px 45px;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.board-table table {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    border-collapse: collapse;
+    text-align: left;
+    color: #172b4d;
+}
+
+.board-table-inner {
+    background: var(--table-background);
+    color: var(--table-text, #fff);
+    border-radius: 24px;
+    padding: 20px 25px;
+    border: 3px solid var(--task-text);
+}
+
+.board-table table th {
+    font-size: 14px;
+    color: var(--table-text, #fff);
+    padding: 0px 0px 10px 0;
+}
+
+.board-table table td {
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--table-text, #fff);
+}
+
+.board-table tr {
+    border-bottom: 1.5px solid rgba(126, 126, 126, 0.527);
+}
+
+.board-table tr:hover {
+    border-bottom: 1.5px solid #1e7cff;
+}
+
+.board-table .edit-board-table {
+    height: 32px;
+    width: 32px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board-table .edit-board-table:hover {
+    background: #091e4224;
+}
+
+.board-table .task-check {
+    height: 15px;
+    width: 15px;
+    border: 1px solid var(--task-text);
+    border-radius: 5px;
+    box-shadow: 1.5px 1.5px 0px 0px var(--task-text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* AddTaskTable */
+
+.line-add {
+    position: absolute;
+    z-index: 1;
+    width: 70px;
+    height: 35px;
+}
+
+.add {
+    border-radius: 5px;
+    background-color: #d4e9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28px;
+    width: 28px;
+    position: absolute;
+    z-index: 100;
+    margin-top: 16px;
+    margin-left: -10px;
+}
+
+@media only screen and (max-width: 700px) {
+
+    /* BoardTable */
+    .board-table {
+        margin: 15px 15px;
+    }
+}

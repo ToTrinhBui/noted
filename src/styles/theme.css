@@ -1,0 +1,47 @@
+#light {
+    /* Navbar */
+    --nav-backgroundColor: #fff;
+    --nav-color: #44546f;
+    --filter-logo: brightness(0) saturate(100%) invert(30%) sepia(53%) saturate(323%) hue-rotate(179deg) brightness(91%) contrast(88%);
+    --svg-fill: #626f86;
+    /* Boards */
+    --title-color: #33322E;
+    --item-hover: #000000;
+    /* TaskCard */
+    --task-background: #FFF;
+    --task-text: #33322E;
+    /* BoardTable */
+    --table-background: #F9F3E5;
+    --table-text: #33322E;
+    /* BoardChart */
+    --chart-background: #F9F3E5;
+}
+
+#dark {
+    --background: #1D2125;
+    /* Navbar */
+    --nav-backgroundColor: #1D2125;
+    --nav-color: #B6C2CF;
+    --filter-logo: brightness(0) saturate(100%) invert(66%) sepia(20%) saturate(225%) hue-rotate(170deg) brightness(101%) contrast(85%) !important;
+    --svg-fill: #DEE4EA;
+    --input-background: #22272B;
+    --input-border: #A6C5E229;
+    --input-color: #8C9BAB;
+    /* Boards */
+    --card-background: #A1BDD914;
+    --add-hover: #A6C5E229;
+    --title-color: #DEE4EA;
+    --text-color: #000;
+    --item-hover: #FFFFFF;
+    /* TaskCard */
+    --task-background: #33322E;
+    --task-text: #DEE4EA;
+    /* BoardTable */
+    --table-background: #33322E;
+    --table-text: #DEE4EA;
+     /* BoardChart */
+     --chart-background: #1f1f1f;
+    /* card */
+    --card-box-background: #282E33;
+    --card-box-shadow: inset 0px 0px 0px 1px #BCD6F01F, 0px 8px 12px #0304045C, 0px 0px 1px #03040480;
+}
