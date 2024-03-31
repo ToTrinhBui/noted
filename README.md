@@ -41,10 +41,7 @@ This is a website that supports job management with frontend using Reactjs, back
 
 # Demo 
 
-![dashboard](https://github.com/ToTrinhBui/noted/assets/94132849/a9b1109e-a966-463a-88e2-22bea6f4a2d7)
-
-![kanbanx](https://github.com/ToTrinhBui/noted/assets/94132849/60b2679d-316f-473e-ab3e-e07eef78340b)
-
-![tablex](https://github.com/ToTrinhBui/noted/assets/94132849/43ceb933-ee1d-49ca-82fd-0c4a63396245)
-
-![chartx](https://github.com/ToTrinhBui/noted/assets/94132849/55e00dd6-9030-42de-8727-b80daa7ec89e)
+   ![alt text](src/images/overview/dashboard.png)
+   ![alt text](src/images/overview/kanbanx.png)
+   ![alt text](src/images/overview/tablex.png)
+   ![alt text](src/images/overview/chartx.png)
